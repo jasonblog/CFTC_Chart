@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.king.chartdemo.MainActivity">
+
+
+
+    <ExpandableListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:groupIndicator="@drawable/group_indicator"
+        android:indicatorLeft="5dp"
+        android:indicatorRight="60dp"
+        android:divider="@color/white"
+        android:dividerHeight="5dp"
+
+
+
+
+
+
+
+        />
+
+</LinearLayout>

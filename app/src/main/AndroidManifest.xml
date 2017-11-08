@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.king.chartdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EuroFx"
+            android:label="CFTC歐元持倉數據"
+            />
+        <activity
+            android:name=".GbpFx"
+            android:label="CFTC英鎊持倉數據" />
+        <activity
+            android:name=".USDIndexFx"
+            android:label="CFTC美元指數持倉數據" />
+        <activity
+            android:name=".JpyFx"
+            android:label="CFTC日圓持倉數據" />
+        <activity
+            android:name=".AudFx"
+            android:label="CFTC澳元持倉數據" />
+        <activity
+            android:name=".NzdFx"
+            android:label="CFTC紐元持倉數據" />
+        <activity
+            android:name=".CadFx"
+            android:label="CFTC加元持倉數據" />
+        <activity
+            android:name=".ChfFx"
+            android:label="CFTC瑞朗持倉數據" />
+        <activity
+            android:name=".Gold"
+            android:label="CFTC黃金持倉數據" />
+        <activity
+            android:name=".Silver"
+            android:label="CFTC銀持倉數據" />
+        <activity
+            android:name=".Copper"
+            android:label="CFTCㄧ級銅持倉數據" />
+        <activity
+            android:name=".Corn"
+            android:label="CFTC玉米持倉數據" />
+        <activity
+            android:name=".Soybeans"
+            android:label="CFTC黃豆持倉數據" />
+        <activity
+            android:name=".CFTC_OW"
+            android:label="CFTC 官網" />
+        <activity
+            android:name=".CFTC_INFO"
+            android:label="CFTC 百度介紹" />
+        <activity
+            android:name=".CFTCquandl"
+            android:label="CFTC Quandl" />
+        <activity android:name=".chart_info"
+            android:label="數據解讀"
+            />
+        <activity android:name=".about"
+            android:label="關於"
+            ></activity>
+    </application>
+
+</manifest>

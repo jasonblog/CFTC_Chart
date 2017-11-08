@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Chartdemo</string>
+    <string name="nonCommercial">
+ 一般認為非商業持倉是基金持倉。在當今國際商品期貨市場上，基金可以說是推動行情的主力，黃金當然也不例外。除了資金規模巨大以外，基金對市場趨勢的把握能力極強，善於利用各種題材進行炒作。並且它們的操作手法十分兇狠果斷，往往能夠明顯加劇市場的波動幅度。</string>
+    <string name="commercial"> 一般認為商業頭寸與金礦、現貨商有關，有套期保值傾向。但實際上現在說到商業頭寸就涉及到基金參與商品交易的隱性化問題。從2003年開始的此輪商品大牛市中，與商品指數相關的基金活動已經超過CTA基金、對沖基金和宏觀基金等傳統意義上的基金規模。而現有的CFTC持倉數據將指數基金在期貨市場上的對沖保值認為是一種商業套保行為，歸入商業頭寸範圍內。另外，指數基金的商品投資是只做多而不做空的，因此他們需要在期貨市場上進行賣出保值。</string>
+    <string name="nonReportable">所謂非報告頭寸是指“不值得報告”的頭寸，即分散的小規模投機者。非報告頭寸的多頭數量等於未平倉合約數量減去可報告頭寸的多單數量，空頭數量等於未平倉合約數量減去可報告頭寸的空單數量。</string>
+    <string name="aboutText">此APP是抓取Quandl的JSON實時更新，數據從2013年開始，每周五更新。 </string>
+    <string name="drawer_open">"Drawer Open"</string>
+    <string name="drawer_close">"Drawer Close"</string>
+</resources>
